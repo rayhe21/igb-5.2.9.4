@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/igb-5.2.9.4/src/igb.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.13.0-37-generic/scripts/module-common.lds --build-id  -o /home/ubuntu/igb-5.2.9.4/src/igb.ko /home/ubuntu/igb-5.2.9.4/src/igb.o /home/ubuntu/igb-5.2.9.4/src/igb.mod.o
